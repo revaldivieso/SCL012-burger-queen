@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Sidebar{
+    position: fixed;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background: rgb(22, 16, 4);
+}
+
+header {
+    font-size: 22px;
+    color: orange;
+    text-align: center;
+    line-height: 70px;
+    background: rgb(22, 16, 4);
+    user-select: none;
+}
+
+.btn-primary{
+    display: block;
+    height: 100%;
+    line-height: 65px;
+    font-size: 20px;
+    color:orange;
+    background: rgb(22, 16, 4);
+    padding-left: 40px;
+    box-sizing: border-box;
+    border: none;
+    transition: .4s;
+}
+
+.btn-primary:hover{
+    padding-left: 50px;
+    background: rgb(99, 72, 32);
+}
+.btn-primary:focus{
+    color: orange;
+    background: rgb(22, 16, 4);
+    border: none;
+    box-shadow: none;
+}
+
+.SideButtons {
+    margin-right: 16 px;
+}
+
+.dropdown-toggle {
+    color: orange;
+    background:rgb(22, 16, 4);
+    border: none;
+}

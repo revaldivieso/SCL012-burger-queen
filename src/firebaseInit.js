@@ -1,7 +1,7 @@
 import firebase from 'firebase/app';
 import 'firebase/firestore';
 
-firebaseConfig = {
+let firebaseConfig = {
     apiKey: "AIzaSyAmTVJNNsmdyaR9-mv4TDxvhxcm_kXVPio",
     authDomain: "burger-queen-5875f.firebaseapp.com",
     databaseURL: "https://burger-queen-5875f.firebaseio.com",
