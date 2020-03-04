@@ -2,9 +2,8 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Button, ButtonGroup, DropdownButton, Dropdown } from 'react-bootstrap';
 import './sidebar.css';
-
-//import firebase from 'firebase/app';
-//import firebaseConfig from './firebaseInit.js';
+import menu from './data.json'
+console.log(menu);
 
 function SideBar() {
     return (
@@ -24,4 +23,19 @@ function SideBar() {
     );
   }
   export default SideBar;
-  
+
+  class NavBar extends Component{
+    render () {
+      return (
+        <div className="navbar">
+
+          <nav className="navbar-dark">
+           <a href="" className="text-white">
+              Hola
+           </a>
+          </nav>
+        </div>
+      );
+    }
+  }
+  export default NavBar;

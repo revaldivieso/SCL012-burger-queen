@@ -3,10 +3,14 @@
     padding: 0;
 }
 
+nav{
+  background-color: black;
+}
+
 .Sidebar{
     position: fixed;
     left: 0;
-    width: 250px;
+    width: 16%;
     height: 100%;
     background: rgb(22, 16, 4);
 }
@@ -20,8 +24,9 @@ header {
     user-select: none;
 }
 
-.btn-primary{
+.btn-primary {
     display: block;
+    width: 100%;
     height: 100%;
     line-height: 65px;
     font-size: 20px;
@@ -49,10 +54,6 @@ header {
     background: rgb(22, 16, 4);
     border: none;
     box-shadow: none;
-}
-
-.SideButtons {
-    margin-right: 16 px;
 }
 
 .dropdown-toggle {
