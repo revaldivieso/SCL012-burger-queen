@@ -15,7 +15,7 @@ function SideBar() {
            <Button>Agregados</Button>
            <Button>Compartir</Button>
           <DropdownButton as={ButtonGroup} title="tragos" id="bg-vertical-dropdown-1">
-             <Dropdown.Item eventKey="1">Tematicos</Dropdown.Item>
+             <Dropdown.Item eventKey="1">Temáticos</Dropdown.Item>
              <Dropdown.Item eventKey="2">Cocktails</Dropdown.Item>
              <Dropdown.Item eventKey="3">Cervezas</Dropdown.Item>
           </DropdownButton>
