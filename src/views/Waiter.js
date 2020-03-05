@@ -1,10 +1,13 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import { Menu } from './ShowMenu';
+import Layout from "../components/layout";
+import MenuData from "../components/menu";
+import Order from "../components/order";
 
 export const Waiter = () => {
     return (
+      <Layout>
         <div>
         <nav>
           <ul>
@@ -16,9 +19,11 @@ export const Waiter = () => {
           </ul>
         </nav>
         <h2>Pedidos</h2>
-        <Menu />
+
       </div>
-            
+      <MenuData />
+      <Order />
+      </Layout>   
 
     )
 

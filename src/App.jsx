@@ -1,17 +1,27 @@
 import React from "react";
-import logo from "./logo.svg";
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
-import Layout from "./components/layout";
-import MenuData from "./components/menu";
-import Order from "./components/order";
+import { Waiter } from "./views/Waiter";
+import { Kitchen } from "./views/Kitchen";
+import { Home } from "./views/Home";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+
 //import firebaseConfig from './firebaseInit.js';
 
 const App = () => {
   return (
-    <Layout>
-      <MenuData />
-      <Order />
-    </Layout>
+   
+      <Router>
+        <div>
+          {/* A <Switch> looks through its children <Route>s and
+          renders the first one that matches the current URL. */}
+          <Switch>
+            <Route exact path="/waiter" component={Waiter} />
+            <Route path="/kitchen" component={Kitchen} />
+            <Route path="/" component={Home} />
+          </Switch>
+        </div>
+      </Router>
   );
 };
 

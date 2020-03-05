@@ -80,7 +80,7 @@
         "id": 12,
         "name": "Donkey Kong",
         "price": 4200,
-        "image": "",
+        "image": "https://firebasestorage.googleapis.com/v0/b/burger-queen-5875f.appspot.com/o/cocktail.png?alt=media&token=b8a42c87-f8fb-4515-aa6a-40dafa7cfc5c",
         "type": ["Tematicos"]
       },
       {
