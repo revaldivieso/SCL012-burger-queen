@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
-
 // import './App.css';
  import { Container, Row, Col } from 'react-bootstrap';
 
 
 
-class Menu extends Component {
+class ContainerMenu extends Component {
     render() {
         return (
         <Container className="menu">
@@ -23,5 +22,5 @@ class Menu extends Component {
 
 }
 
-export default Menu;
+export default ContainerMenu;
 

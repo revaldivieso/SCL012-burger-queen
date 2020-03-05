@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import Layout from "../components/layout";
 import MenuData from "../components/menu";
 import Order from "../components/order";
+import ContainerMenu from "../components/ContainerMenu";
 
 export const Waiter = () => {
     return (
@@ -19,12 +20,10 @@ export const Waiter = () => {
           </ul>
         </nav>
         <h2>Pedidos</h2>
-
       </div>
       <MenuData />
       <Order />
+      <ContainerMenu />
       </Layout>   
-
     )
-
 }
