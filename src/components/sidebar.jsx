@@ -2,12 +2,12 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Button, ButtonGroup, DropdownButton, Dropdown } from 'react-bootstrap';
 import './sidebar.css';
-import menu from './data.json'
-console.log(menu);
 
-function SideBar() {
+
+const SideBar = () => {
     return (
-      <div className="Sidebar">
+      <div className="sidebar">
+        <div className="sidebar-content">
         <header>Menú</header>
         <ButtonGroup className="SideButtons" vertical>
            <Button>Hamburguesas</Button>
@@ -19,23 +19,8 @@ function SideBar() {
              <Dropdown.Item eventKey="3">Cervezas</Dropdown.Item>
           </DropdownButton>
         </ButtonGroup>
+        </div>
       </div> 
     );
   }
   export default SideBar;
-
-  class NavBar extends Component{
-    render () {
-      return (
-        <div className="navbar">
-
-          <nav className="navbar-dark">
-           <a href="" className="text-white">
-              Hola
-           </a>
-          </nav>
-        </div>
-      );
-    }
-  }
-  export default NavBar;
