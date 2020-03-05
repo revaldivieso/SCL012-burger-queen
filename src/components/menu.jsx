@@ -11,36 +11,10 @@ class MenuData extends Component {
     };
   }
   render() {
-    const menu = this.state.data.map((item, i) => { 
-        <li>{item}</li>
-
-      return (
-        <div className="col-md-4">
-          <div className="card mt-4">
-            <div className="card-header">
-              <h3>{item.name}</h3>
-            </div>
-            <div className="card-body">
-              <p>{item.item}</p>
-            </div>
-          </div>
-        </div>
-      );
+    return this.state.data.map((item, i) => {
+      console.log(item);
+    return <li key={i}>{item.items[0].name}</li>
     });
-    console.log(menu);
-    return (
-      <div>
-        <nav className="navbar">
-          <a className="text-white">
-            navigation
-          </a>
-        </nav>
-
-        <div className="container">
-          <div className="row mt-4">{menu}</div>
-        </div>
-      </div>
-    );
   }
 }
 export default MenuData;
