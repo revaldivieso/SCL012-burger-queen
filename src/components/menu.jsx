@@ -12,7 +12,6 @@ class MenuData extends Component {
   }
   render() {
     return this.state.data.map((item, i) => {
-      console.log(item);
     return <li key={i}>{item.items[0].name}</li>
     });
   }

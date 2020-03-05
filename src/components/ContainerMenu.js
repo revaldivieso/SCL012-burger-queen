@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 // import './App.css';
  import { Container, Row, Col } from 'react-bootstrap';
-
+import MenuData from "./menu";
 
 
 class ContainerMenu extends Component {
@@ -10,9 +10,9 @@ class ContainerMenu extends Component {
         <Container className="menu">
             <h1>Selección Menú</h1>
             <Row>
-              <Col></Col>
-              <Col></Col>
-              <Col></Col>
+              <Col>
+              <MenuData />
+              </Col>
             </Row>
           </Container>
 
