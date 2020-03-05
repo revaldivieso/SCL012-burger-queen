@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,5 +35,17 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.menu {
+  background-color: #61dafb;
+  /* width: 300px; */
+
+  width: 20em;
+  height: 35em;
+  margin: 1em;
+  display: flex;
+
 }
+
 

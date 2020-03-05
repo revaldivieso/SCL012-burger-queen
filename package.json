@@ -8,11 +8,7 @@
     "@testing-library/user-event": "^7.2.1",
     "bootstrap": "^4.4.1",
     "react": "^16.12.0",
-<<<<<<< HEAD
-    "react-bootstrap": "^1.0.0-beta.17",
-=======
     "react-bootstrap": "^1.0.0-beta.16",
->>>>>>> 805827c1873b8eba20cb67caaf19b8533421d7ed
     "react-dom": "^16.12.0",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.0"
