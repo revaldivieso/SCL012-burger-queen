@@ -4,22 +4,16 @@ import { Link } from "react-router-dom";
 import Layout from "../components/layout";
 import Order from "../components/order";
 import ContainerMenu from "../components/ContainerMenu";
+import SideBar from "../components/sidebar";
 
 export const Waiter = () => {
   return (
     <Layout>
-      <div>
-        <nav>
-          <ul>
-            <Link to="/">
-              <Button>Home</Button>
-            </Link>
-          </ul>
-        </nav>
-        
-      </div>
+      
+      <SideBar />
         <ContainerMenu />
         <Order />
     </Layout>
   );
 };
+
