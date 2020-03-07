@@ -1,7 +1,5 @@
 import React, { Component } from "react";
-//import ReactDOM from 'react-dom';
 import data from "./data";
-//import sidebar from './sidebar.js'
 
 class MenuData extends Component {
   constructor(props) {
@@ -11,8 +9,8 @@ class MenuData extends Component {
     };
   }
   render() {
-    return this.state.data.map((item, i) => {
-    return <li key={i}>{item.items[0].name}</li>
+    return (this.props.items || []).map((item, i) => {
+      return <li key={i}>{item.name}</li>;
     });
   }
 }
