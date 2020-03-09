@@ -1,0 +1,10 @@
+.Order-detail {
+    width: 50%;
+    border: 2px solid black;
+}
+
+.order-items{
+    align-items: baseline;
+    display: inline;
+    text-align: inherit;
+}

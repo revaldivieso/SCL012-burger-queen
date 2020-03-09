@@ -12,7 +12,7 @@ class ContainerMenu extends Component {
         <Container className="menu">
             <Row className="Row-card">
               <Col className="Col-items">
-              {Data.map(i => <Route path={`/waiter/${i.name}`} render={props => <MenuData items={i.items} /> }/>)}
+              {Data.map(i => <Route path={`/waiter/${i.name}`} render={props => <MenuData onPurcharse={this.props.onPurcharse} items={i.items} /> }/>)}
               </Col>
             </Row>
           </Container>
