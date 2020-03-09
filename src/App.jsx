@@ -6,9 +6,6 @@ import { Kitchen } from "./views/Kitchen";
 import { Home } from "./views/Home";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import {Navigation} from "./components/Navigation";
-import Data from "./components/data.json";
-import MenuData from "./components/menu";
-//import firebaseConfig from './firebaseInit.js';
 
 const App = () => {
   return (
@@ -21,6 +18,7 @@ const App = () => {
           <Switch>
             <Route path="/waiter" component={Waiter} />
             <Route path="/kitchen" component={Kitchen} />
+            <Route path="/" component={Home}/>
           </Switch>
         </div>
       </Router>

@@ -19,15 +19,16 @@ const SideBar = () => {
           <Link to="/waiter/Compartir">
             <Button>Compartir</Button>
           </Link>
-          <DropdownButton
-            as={ButtonGroup}
-            title="tragos"
-            id="bg-vertical-dropdown-1"
-          >
-            <Dropdown.Item eventKey="1">Temáticos</Dropdown.Item>
+          <Link to="/waiter/Tragos">
+            <DropdownButton
+              as={ButtonGroup}
+              title="tragos"
+              id="bg-vertical-dropdown-1">
+             <Link to="/waiter/Tragos/Tematicos"><Dropdown.Item eventKey="1">Temáticos</Dropdown.Item></Link>
             <Dropdown.Item eventKey="2">Cocktails</Dropdown.Item>
             <Dropdown.Item eventKey="3">Cervezas</Dropdown.Item>
           </DropdownButton>
+          </Link>
         </ButtonGroup>
       </div>
     </div>

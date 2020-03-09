@@ -23,6 +23,5 @@ export const Home = () => {
         </Col>
       </Row>
     </Container>
-
   )
 }
