@@ -10,8 +10,8 @@ export class Navigation extends Component {
             <Navbar.Collapse id="basic-navbar-nav">
             <Nav>
             <NavLink className="d-inline p-2 bg-dark text-white" to="/">Home</NavLink>
-            <NavLink className="d-inline p-2 bg-dark text-white" to="/waiter">Waiter</NavLink>
-            <NavLink className="d-inline p-2 bg-dark text-white" to="/kitchen">Kitchen</NavLink>
+            <NavLink className="d-inline p-2 bg-dark text-white" to="/waiter">Mesero</NavLink>
+            <NavLink className="d-inline p-2 bg-dark text-white" to="/kitchen">Cocina</NavLink>
             </Nav>
             </Navbar.Collapse>
             </Navbar>
