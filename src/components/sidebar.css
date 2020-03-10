@@ -11,7 +11,7 @@ nav{
 }
 .sidebar{
     position: relative;
-    width: 220px;
+    width: 25%;
     height: 100%;
     background: #241e1e;
 }
@@ -23,7 +23,7 @@ nav{
 
 header {
     font-size: 22px;
-    color: orange;
+    color: #d9bf4e;
     text-align: center;
     line-height: 70px;
     background: #241e1e;
@@ -36,8 +36,8 @@ header {
     height: 100%;
     line-height: 65px;
     font-size: 20px;
-    color:orange;
-    background: rgb(22, 16, 4);
+    color:#d9bf4e;
+    background: #241e1e;
     padding-left: 40px;
     box-sizing: border-box;
     border: none;
@@ -49,20 +49,20 @@ header {
 }
 .btn-primary:focus{
     color: orange;
-    background: rgb(22, 16, 4);
+    background:#241e1e;
     border: none;
     box-shadow: none;
 }
 
 .show:active{
     color: orange;
-    background: rgb(22, 16, 4);
+    background:#241e1e;
     border: none;
     box-shadow: none;
 }
 
 .dropdown-toggle {
     color: orange;
-    background:rgb(22, 16, 4);
+    background:#241e1e;
     border: none;
 }

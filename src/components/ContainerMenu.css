@@ -1,0 +1,19 @@
+.menu {
+    width: 50%;
+}
+
+.Row-card {
+   width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.Col-items{
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    margin: 5px 5px 5px 5px;
+}

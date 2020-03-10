@@ -7,7 +7,6 @@ import { Kitchen } from "./views/Kitchen";
 import { Navigation } from "./components/Navigation";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-//import firebaseConfig from './firebaseInit.js';
 
 const App = () => {
   return (
