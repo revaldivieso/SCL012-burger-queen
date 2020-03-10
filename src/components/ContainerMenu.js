@@ -2,7 +2,6 @@ import React, { Component } from 'react';
  import { Container, Row, Col } from 'react-bootstrap';
 import MenuData from "./menu";
 import Data from "./data";
-//import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { Route } from "react-router-dom";
 import "./ContainerMenu.css"
 

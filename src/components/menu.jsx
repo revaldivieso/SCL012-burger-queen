@@ -22,7 +22,7 @@ class MenuData extends Component {
               <Card.Text>{item.price}</Card.Text>
             </Card.Body>
             <Card.Footer>
-              <Button onClick={() => this.props.onPurcharse(item)} className="btn-card">Comprar</Button>
+              <Button onClick={() => this.props.onPurcharse(item)} className="btn-card">Añadir</Button>
             </Card.Footer>
           </Card>
         </CardDeck>
