@@ -1,10 +1,18 @@
 .Order-detail {
     width: 50%;
-    border: 2px solid black;
 }
 
 .order-items{
     align-items: baseline;
     display: inline;
     text-align: inherit;
+}
+.btn{
+    width: 100%;
+    display: block;
+    font-size: 20px;
+    color:orange;
+    background: rgb(22, 16, 4);
+    border: none;
+    transition: .4s;
 }
