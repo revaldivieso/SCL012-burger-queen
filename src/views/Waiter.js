@@ -1,11 +1,8 @@
 import React from "react";
-//import { Button } from "react-bootstrap";
-//import { Link } from "react-router-dom";
 import Layout from "../components/layout";
 import Order from "../components/Order";
 import ContainerMenu from "../components/ContainerMenu";
 import SideBar from "../components/sidebar";
-
 
 export const Waiter = () => {
   const [car, setCar] = React.useState([]);
@@ -15,7 +12,6 @@ export const Waiter = () => {
     setCar(newCar)
   }
   return (
-
     <Layout>
         <SideBar />
         <ContainerMenu onPurcharse={onPurcharse} />
