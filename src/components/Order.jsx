@@ -1,6 +1,6 @@
-import React from "react";
-import "./Order.css";
-import { Waiter } from "../views/Waiter";
+import React from 'react'
+import './Order.css'
+import Trash from '../images/delete.png'
 
 const Order = props => (
   <div className="Order-detail">
@@ -15,8 +15,8 @@ const Order = props => (
       <div className="order-items">
         <p>{item.name}</p>
         <p>{item.price}</p>
-        <button onClick={() => props.removeItem(item, index)} className="btn-send">
-          X
+        <button onClick={() => props.removeItem(item, index)} className="icon-btn">
+          <img className="icon-delete" src={Trash}/>
         </button>
       </div>
     ))}

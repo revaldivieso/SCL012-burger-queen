@@ -22,7 +22,7 @@ const SideBar = () => {
           <Link to="/waiter/Tragos">
             <DropdownButton
               as={ButtonGroup}
-              title="tragos"
+              title="Tragos"
               id="bg-vertical-dropdown-1">
              <Link to="/waiter/Tragos/Tematicos"><Dropdown.Item eventKey="1">Temáticos</Dropdown.Item></Link>
             <Dropdown.Item eventKey="2">Cocktails</Dropdown.Item>
