@@ -7,21 +7,18 @@ import "./ContainerMenu.css"
 
 
 class ContainerMenu extends Component {
-    render() {
-        return (
-        <Container className="menu">
-            <Row className="Row-card">
-              <Col className="Col-items">
-              {Data.map(i => <Route path={`/waiter/${i.name}`} render={props => <MenuData onPurcharse={this.props.onPurcharse} items={i.items} /> }/>)}
-              </Col>
-            </Row>
-          </Container>
+  render () {
+    return (
+      <Container className="menu">
+        <Row className="Row-card">
+          <Col className="Col-items">
+            {Data.map(i => <Route path={`/waiter/${i.name}`} render={props => <MenuData onPurcharse={this.props.onPurcharse} items={i.items} /> }/>)}
+          </Col>
+        </Row>
+      </Container>
 
-            
-        )
-    }
-
+    )
+  }
 }
 
-export default ContainerMenu;
-
+export default ContainerMenu
