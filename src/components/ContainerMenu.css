@@ -3,10 +3,7 @@
 }
 
 .Row-card {
-   width: 100%;
-    display: flex;
-    align-content: center;
-    justify-content: center;
+   width: 100vh;
     flex-wrap: wrap;
     text-align: center;
 }
