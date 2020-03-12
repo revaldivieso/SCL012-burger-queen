@@ -1,7 +1,7 @@
-// import firebase from 'firebase/app';
-// import 'firebase/firestore';
+import firebase from 'firebase/app';
+import 'firebase/firestore'
 
-let firebaseConfig = {
+const firebaseConfig = {
     apiKey: "AIzaSyAmTVJNNsmdyaR9-mv4TDxvhxcm_kXVPio",
     authDomain: "burger-queen-5875f.firebaseapp.com",
     databaseURL: "https://burger-queen-5875f.firebaseio.com",
@@ -12,8 +12,10 @@ let firebaseConfig = {
     measurementId: "G-CKL4V8KWDX"
   };
   // Initialize Firebase
-  let db = firebase.initializeApp(firebaseConfig);
-
-//   export default db;
+  firebase.initializeApp(firebaseConfig);
+  
+  let db = firebase.firestore();
+  
+  export default db;
 
   
