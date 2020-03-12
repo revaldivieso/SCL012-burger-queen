@@ -12,7 +12,7 @@ const Order = props => (
       </label>
     </form>
     {props.car.map((item, index) => (
-      <div className="order-items">
+      <div className="order-items col-sm-10">
         <p>{item.name}</p>
         <p>{item.price}</p>
         <button onClick={() => props.removeItem(item, index)} className="icon-btn">
