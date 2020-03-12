@@ -1,7 +1,8 @@
-.card-deck {
-    margin: 2px 2px 2px 2px;
-    font-size: small;
-    text-align: center;
+.card {
+  flex: 1 0;
+  margin: 10px;
+  width: 100%;
+  background-color: aqua;
 }
 
 .btn-card{
@@ -10,5 +11,6 @@
     height: 20px;
     text-align: center;
 }
+
 
 

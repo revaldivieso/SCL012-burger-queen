@@ -15,8 +15,7 @@ class MenuData extends Component {
     return (this.props.items || []).map((item, i) => {
       return (
         <CardDeck>
-          <Card className="Card.menu">
-            <Card.Img variant="top" src="" />
+          <Card className="card-deck">
             <Card.Body>
               <Card.Title key={i}>{item.name}</Card.Title>
               <Card.Text>{item.price}</Card.Text>
