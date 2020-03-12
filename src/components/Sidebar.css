@@ -48,21 +48,21 @@ header {
     background: rgb(99, 72, 32);
 }
 .btn-primary:focus{
-    color: orange;
+    color:  #d9bf4e;
     background:#241e1e;
     border: none;
     box-shadow: none;
 }
 
 .show:active{
-    color: orange;
+    color:  #d9bf4e;
     background:#241e1e;
     border: none;
     box-shadow: none;
 }
 
 .dropdown-toggle {
-    color: orange;
+    color:  #d9bf4e;
     background:#241e1e;
     border: none;
 }

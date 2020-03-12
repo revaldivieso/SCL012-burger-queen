@@ -3,16 +3,27 @@
 }
 
 .order-items{
-    align-items: baseline;
-    display: inline;
-    text-align: inherit;
+    display: flex;
+    justify-content: space-between;
 }
-.btn{
-    width: 100%;
+
+.btn-send{
     display: block;
     font-size: 20px;
-    color:orange;
-    background: #241e1e;
+    color: #d9bf4e;
+    width: 30%;
+    background-color:#241e1e;
     border: none;
     transition: .4s;
+}
+
+.icon-delete{
+    background-color: white;
+    width: 40%;
+}
+
+.icon-btn{
+    background-color: white;
+    width: 10%;
+    border-color: none;
 }

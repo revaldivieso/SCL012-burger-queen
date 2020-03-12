@@ -1,7 +1,9 @@
 .card-deck {
-    margin: 2px 2px 2px 2px;
+    margin: 10px;
     font-size: small;
     text-align: center;
+    width: 40%;
+    display: flex;
 }
 
 .btn-card{
@@ -11,4 +13,7 @@
     text-align: center;
 }
 
+.card-footer {
+    padding: 0rem;
+}
 
