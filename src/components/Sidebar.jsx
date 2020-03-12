@@ -1,7 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Button, ButtonGroup, DropdownButton, Dropdown } from "react-bootstrap";
-import "./sidebar.css";
+import "./Sidebar.css";
 import { Link } from "react-router-dom";
 
 const SideBar = () => {

@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import data from "./data";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Button, CardDeck, Card } from "react-bootstrap";
-import "./menu.css";
+import "./MenuData.css";
 
 class MenuData extends Component {
   constructor(props) {

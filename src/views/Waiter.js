@@ -1,8 +1,8 @@
 import React from "react";
-import Layout from "../components/layout";
+import Layout from "../components/Layout";
 import Order from "../components/Order";
 import ContainerMenu from "../components/ContainerMenu";
-import SideBar from "../components/sidebar";
+import SideBar from "../components/Sidebar";
 
 export const Waiter = () => {
   const [car, setCar] = React.useState([]);

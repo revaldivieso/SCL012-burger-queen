@@ -16,7 +16,7 @@ const Order = props => (
         <p>{item.name}</p>
         <p>{item.price}</p>
         <button onClick={() => props.removeItem(item, index)} className="btn-send">
-          Eliminar
+          X
         </button>
       </div>
     ))}
