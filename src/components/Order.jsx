@@ -22,6 +22,6 @@ const Order = props => (
     ))}
     <button className="btn-send">Enviar</button>
   </div>
-);
+)
 
-export default Order;
+export default Order

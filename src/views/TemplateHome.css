@@ -1,3 +1,7 @@
+.navBar {
+    display: block;
+}
+
 .home-logo {
     width: 60%;
     height: auto;
@@ -18,10 +22,6 @@
     background: rgb(187, 156, 84);
     color:whitesmoke;
 }
-
-/* .waiter, .chef{
-    padding-top: 11em;
-} */
 
 .waiter{
     padding-right: 30px;
