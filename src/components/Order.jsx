@@ -1,5 +1,6 @@
 import React from "react";
 import "./Order.css";
+import { Waiter } from "../views/Waiter";
 
 const Order = props => (
   <div className="Order-detail">
@@ -10,15 +11,16 @@ const Order = props => (
         <input type="text" name="name" />
       </label>
     </form>
-    {props.car.map(i => (
+    {props.car.map((item, index) => (
       <div className="order-items">
-        <h4>{i.name}</h4>
-        <span>
-          <h5>{i.price}</h5>
-        </span>
+        <p>{item.name}</p>
+        <p>{item.price}</p>
+        <button onClick={() => props.removeItem(item, index)} className="btn-send">
+          Eliminar
+        </button>
       </div>
     ))}
-    <input className="btn" type="submit" value="Enviar" />
+    <button className="btn-send">Enviar</button>
   </div>
 );
 

@@ -3,12 +3,12 @@
 }
 
 .order-items{
-    align-items: baseline;
-    display: inline;
-    text-align: inherit;
+    display: flex;
+    justify-content: space-between;
 }
-.btn{
-    width: 100%;
+
+.btn-send{
+ 
     display: block;
     font-size: 20px;
     color:orange;
