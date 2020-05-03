@@ -1,18 +1,21 @@
-.card-deck {
-    margin: 10px;
-    text-align: center;
-    width: 40%;
+@media (min-width: 768px) {
+  .card-deck {
+    float: left;
+    margin-top: 15px;
     display: flex;
-}
+    width: min-content;
 
-.btn-card{
+
+  }
+
+  .btn-card {
     width: 10px;
     height: 20px;
-    text-align: center;
-}
+    text-align: justify;
+  }
 
-.card-footer {
+  .card-footer {
     padding: 0rem;
-    text-align: center;
+    text-align: justify;
+  }
 }
-

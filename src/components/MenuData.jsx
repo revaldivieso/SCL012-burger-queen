@@ -5,14 +5,14 @@ import { Button, CardDeck, Card } from "react-bootstrap";
 import "./MenuData.css";
 
 class MenuData extends Component {
-  constructor (props) {
-    super(props)
+  constructor(props) {
+    super(props);
     this.state = {
-      data
-    }
+      data,
+    };
   }
 
-  render () {
+  render() {
     return (this.props.items || []).map((item, i) => {
       return (
         <CardDeck className="card-deck">
@@ -22,12 +22,17 @@ class MenuData extends Component {
               <Card.Text>{item.price}</Card.Text>
             </Card.Body>
             <Card.Footer>
-              <Button onClick={() => this.props.onPurcharse(item)} className="btn-card">Añadir</Button>
+              <Button
+                onClick={() => this.props.onPurcharse(item)}
+                className="btn-card"
+              >
+                Añadir
+              </Button>
             </Card.Footer>
           </Card>
         </CardDeck>
-      )
-    })
+      );
+    });
   }
 }
-export default MenuData
+export default MenuData;

@@ -1,7 +1,6 @@
-
 ![logo](readmeImg/logo.png)
 
-# Insert Quest 
+# Insert Quest
 
 Insert Quest es una aplicación para tablets diseñada para el pub gamer Insert Coin, donde se puedan tomar órdenes y mandar comandas a cocina sin necesidad de recurrir al papel y lápiz.
 
@@ -11,7 +10,7 @@ Para definir a nuestros usuarios, tomamos en cuenta usuarios que sean nativos di
 
 ## Historias de Usuario 📝
 
-1. *Yo como meserx quiero tomar el pedido de un cliente para no depender de mi mala memoria, para saber cuánto cobrar, y enviarlo a la cocina para evitar errores y que se puedan ir preparando en orden.*
+1. _Yo como meserx quiero tomar el pedido de un cliente para no depender de mi mala memoria, para saber cuánto cobrar, y enviarlo a la cocina para evitar errores y que se puedan ir preparando en orden._
 
 ## Planificación 📋
 

@@ -1,14 +1,19 @@
-.layout {
+@media (min-width: 768px) {
+  .layout {
     display: flex;
     flex: 1 1 auto;
     position: absolute;
     height: 100%;
     width: 100%;
+    flex-direction: row;
+    flex-wrap: nowrap;
     overflow: auto;
     background-color: white;
-}
+  }
 
-.layout .content {
-    display: flex;
+  .layout .content {
+
     flex: 1 1 auto;
+
+  }
 }

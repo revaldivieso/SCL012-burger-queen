@@ -8,7 +8,6 @@ const SideBar = () => {
   return (
     <div className="sidebar">
       <div className="sidebar-content">
-        <header>Menú</header>
         <ButtonGroup className="SideButtons" vertical>
           <Link to="/waiter/Hamburguesas">
             <Button>Hamburguesas</Button>
@@ -23,8 +22,11 @@ const SideBar = () => {
             <DropdownButton
               as={ButtonGroup}
               title="Tragos"
-              id="bg-vertical-dropdown-1">
-              <Link to="/waiter/Tragos/Tematicos"><Dropdown.Item eventKey="1">Temáticos</Dropdown.Item></Link>
+              id="bg-vertical-dropdown-1"
+            >
+              <Link to="/waiter/Tragos/Tematicos">
+                <Dropdown.Item eventKey="1">Temáticos</Dropdown.Item>
+              </Link>
               <Dropdown.Item eventKey="2">Cocktails</Dropdown.Item>
               <Dropdown.Item eventKey="3">Cervezas</Dropdown.Item>
             </DropdownButton>
@@ -32,6 +34,6 @@ const SideBar = () => {
         </ButtonGroup>
       </div>
     </div>
-  )
-}
-export default SideBar
+  );
+};
+export default SideBar;
