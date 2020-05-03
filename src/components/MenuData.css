@@ -1,13 +1,4 @@
 @media (min-width: 768px) {
-  .card-deck {
-    float: left;
-    margin-top: 15px;
-    display: flex;
-    width: min-content;
-
-
-  }
-
   .btn-card {
     width: 10px;
     height: 20px;
@@ -17,5 +8,24 @@
   .card-footer {
     padding: 0rem;
     text-align: justify;
+  }
+}
+
+.card-deck {
+  margin-top: 15px;
+  display: flex;
+  width: 50%;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.card-deck .card {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+@media (max-width: 768px) {
+  .card-deck {
+    width: 100%;
   }
 }

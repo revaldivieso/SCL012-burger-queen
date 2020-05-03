@@ -1,18 +1,18 @@
-@media (min-width: 768px) {
-  .col-sidebar {
-    width: 20%;
-  }
+@media (min-width: 768px) {}
 
-  .col-menu {
-    width: 40%;
-    display: flex;
-    flex-wrap: wrap;
-    flex: none;
-  }
+.col-sidebar {
+  width: 20%;
+}
 
-  .col-order {
-    width: 40%;
-    flex: none;
-    display: flex;
-  }
+.col-menu {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  flex: none;
+}
+
+.col-order {
+  width: 30%;
+  flex: none;
+  display: flex;
 }
