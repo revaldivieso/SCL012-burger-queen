@@ -9,15 +9,23 @@ import "./Grilla.css";
 
 export const Waiter = () => {
   const [car, setCar] = React.useState([]);
+  const [total, setTotal] = React.useState(0);
   const onPurcharse = (item) => {
     const newCar = [...car];
     newCar.push(item);
     setCar(newCar);
+    setTotal(totalPrice(newCar));
   };
+
   const removeItem = (item, i) => {
     const newCar = [...car];
     newCar.splice(i, 1);
     setCar(newCar);
+    setTotal(totalPrice(newCar));
+  };
+
+  const totalPrice = (car) => {
+    return car.reduce((a, c) => a + c.price || 0, 0);
   };
 
   return (
@@ -31,7 +39,7 @@ export const Waiter = () => {
           <ContainerMenu onPurcharse={onPurcharse} />
         </Col>
         <Col className="col-order">
-          <Order car={car} removeItem={removeItem} />
+          <Order car={car} removeItem={removeItem} total={total} />
         </Col>
       </Row>
     </Layout>

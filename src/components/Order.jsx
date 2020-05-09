@@ -1,4 +1,5 @@
 import React from "react";
+//import db from "../firebaseInit";
 import "./Order.css";
 import Trash from "../images/delete.png";
 
@@ -12,7 +13,7 @@ const Order = (props) => (
       </label>
     </form>
     {props.car.map((item, index) => (
-      <div className="order-items col-sm-10">
+      <div key={`item-${index}`} className="order-items col-sm-10">
         <p>{item.name}</p>
         <p>{item.price}</p>
         <button
@@ -23,6 +24,9 @@ const Order = (props) => (
         </button>
       </div>
     ))}
+    <p>
+      Total Price:<span>{props.total}</span>
+    </p>
     <button className="btn-send">Enviar</button>
   </div>
 );

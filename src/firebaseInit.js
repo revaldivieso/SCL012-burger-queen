@@ -1,19 +1,17 @@
-// import firebase from 'firebase/app';
-// import 'firebase/firestore';
+import firebase from "firebase/app";
+import "firebase/firestore";
 
 let firebaseConfig = {
-    apiKey: "AIzaSyAmTVJNNsmdyaR9-mv4TDxvhxcm_kXVPio",
-    authDomain: "burger-queen-5875f.firebaseapp.com",
-    databaseURL: "https://burger-queen-5875f.firebaseio.com",
-    projectId: "burger-queen-5875f",
-    storageBucket: "burger-queen-5875f.appspot.com",
-    messagingSenderId: "683226958157",
-    appId: "1:683226958157:web:addba4d22e0ae03d618f04",
-    measurementId: "G-CKL4V8KWDX"
-  };
-  // Initialize Firebase
-  let db = firebase.initializeApp(firebaseConfig);
+  apiKey: "AIzaSyCRIAEiKZwmkmSATAoR44bDIjc0q3ACZKQ",
+  authDomain: "insert-quest.firebaseapp.com",
+  databaseURL: "https://insert-quest.firebaseio.com",
+  projectId: "insert-quest",
+  storageBucket: "insert-quest.appspot.com",
+  messagingSenderId: "585794805513",
+  appId: "1:585794805513:web:6a3c3b19a46f4cce553dd8",
+  measurementId: "G-4DN3KP71P6",
+};
+// Initialize Firebase
+let db = firebase.initializeApp(firebaseConfig);
 
-//   export default db;
-
-  
+export default db;
